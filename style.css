@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Apply styles to all input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #3CBC8D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Add focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #555;
+    outline: none;
+}
+
+/* Add styles for the header image */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styling for labels, h2, etc. can be added as needed */
